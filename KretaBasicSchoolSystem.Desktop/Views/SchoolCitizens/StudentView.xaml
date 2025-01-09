@@ -70,7 +70,7 @@
                 <DataGridTextColumn Width="100" Header="Vezetéknév" Binding="{Binding LastName}"></DataGridTextColumn>
                 <DataGridTextColumn Width="100" Header="Keresztnév" Binding="{Binding FirstName}"></DataGridTextColumn>
                 <DataGridTextColumn Width="100" Header="Szüleséi dátum" Binding="{Binding BirthsDay}"></DataGridTextColumn>
-                <DataGridTextColumn Width="50" Header="Évfolyam" Binding="{Binding SchoolYear}"></DataGridTextColumn>
+                <DataGridTextColumn Width="60" Header="Évfolyam" Binding="{Binding SchoolYear}"></DataGridTextColumn>
                 <DataGridTextColumn Width="50" Header="Osztály" Binding="{Binding SchoolClass}"></DataGridTextColumn>
                 <DataGridTextColumn Width="100" Header="Tanulmányi szint" Binding="{Binding EducationLevel}"></DataGridTextColumn>
             </DataGrid.Columns>
