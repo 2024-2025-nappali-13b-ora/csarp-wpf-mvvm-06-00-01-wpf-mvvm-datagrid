@@ -65,6 +65,8 @@
           Margin="10 2 10 10"
           ItemsSource="{Binding Students}"
           SelectedItem="{Binding SelectedStudent}"
+          Style="{DynamicResource DataGridCrudStyle}"
+          ColumnHeaderStyle="{DynamicResource DataGridCRUDHeaderStyle}"
         >
             <DataGrid.Columns>
                 <DataGridTextColumn Width="100" Header="Vezetéknév" Binding="{Binding LastName}"></DataGridTextColumn>
